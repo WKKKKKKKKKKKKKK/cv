@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Weikang Kong | Academic CV</title>
+
+<style>
+
+/* ================= GLOBAL ================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+
+body {
+    background: url("storm.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: #e2e8f0;
+    line-height: 1.6;
+}
+
+/* ================= LAYOUT ================= */
+
+.container {
+    max-width: 950px;
+    margin: 60px auto;
+    padding: 40px;
+}
+
+/* ================= HEADER ================= */
+
+.header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.header h1 {
+    font-size: 42px;
+    font-weight: 700;
+    background: linear-gradient(90deg, #38bdf8, #a78bfa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header p {
+    margin-top: 12px;
+    color: #94a3b8;
+}
+
+.header a {
+    color: #94a3b8;
+}
+
+.header a:hover {
+    color: #38bdf8;
+}
+
+
+/* ================= CARD ================= */
+
+.card {
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 16px;
+    margin-bottom: 25px;
+    border: 1px solid rgba(255,255,255,0.08);
+
+    transition: all 0.3s ease;
+}
+
+/* 🔥 Hover Interaction */
+.card:hover {
+    transform: translateY(-6px);
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(56,189,248,0.4);
+    box-shadow: 0 10px 30px rgba(56,189,248,0.15);
+}
+
+.card h2 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #38bdf8;
+    transition: 0.3s ease;
+}
+
+.card:hover h2 {
+    color: #a78bfa;
+}
+
+.card a {
+    color: #38bdf8;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.card a:hover {
+    color: #a78bfa;
+    text-decoration: underline;
+}
+/* ================= TIMELINE ================= */
+
+.timeline {
+    list-style: none;
+}
+
+.timeline > li {
+    margin-bottom: 22px;
+    position: relative;
+    padding-left: 15px;
+}
+
+.timeline > li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 8px;
+    width: 8px;
+    height: 8px;
+    background: #38bdf8;
+    border-radius: 50%;
+}
+
+.sub {
+    margin-top: 6px;
+    padding-left: 18px;
+    color: #cbd5e1;
+    font-size: 14px;
+}
+
+.time {
+    float: right;
+    color: #94a3b8;
+    font-size: 14px;
+}
+
+/* ================= FOOTER ================= */
+
+.footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #64748b;
+    font-size: 14px;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+
+    .container {
+        padding: 20px;
+        margin: 30px auto;
+    }
+
+    .header h1 {
+        font-size: 32px;
+    }
+
+    .time {
+        float: none;
+        display: block;
+        margin-top: 4px;
+    }
+
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<!-- ================= HEADER ================= -->
+
+<div class="header">
+    <h1>Weikang Kong</h1>
+    <p>
+        Email: weikang.kong@kaust.edu.sa • 
+        GitHub: 
+        <a href="https://github.com/WKKKKKKKKKKKKKK" target="_blank">
+         github.com/WKKKKKKKKKKKKKK
+        </a> 
+    </p>
+</div>
+
+<!-- ================= ABOUT ME ================= -->
+<div class="card">
+    <h2>👤 About Me</h2>
+    <div class="sub">
+
+        <p>
+            My interest in meteorology was sparked by the extreme rainfall and flood event
+            in my hometown (Zhengzhou, Henan Province, July 2021). 
+            Witnessing the power of the storm and the profound impact it had on the community
+            inspired me to dedicate myself to advancing weather forecasting and early warning research.
+        </p>
+
+        <br>
+
+        <p>I am particularly interested in:</p>
+        <ul style="margin-top:10px; padding-left:20px;">
+            <li>Weather Forecasting</li>
+            <li>Climate Services</li>
+            <li>Dynamics of Weather Systems</li>
+            <li>Machine Learning</li>
+        </ul>
+
+        <br>
+
+        <p style="margin-top:15px; font-style: italic;">
+            “Life unfolds like a Lorenz attractor — where destiny is not a linear certainty, 
+            but a constellation gradually revealed between chaos and order.”
+        </p>
+
+    </div>
+</div>
+
+<!-- ================= EDUCATION ================= -->
+
+<div class="card">
+    <h2>🎓 Education</h2>
+    <ul class="timeline">
+
+        <li>
+            <strong>King Abdullah University of Science and Technology (KAUST), Saudi Arabia</strong>
+            <span class="time">2025–Present</span>
+            <div class="sub">M.Sc. Earth Science and Engineering — GPA 3.44/4.0 (Pending)</div>
+        </li>
+
+        <li>
+            <strong>University of Reading, UK</strong>
+            <span class="time">2024–2025</span>
+            <div class="sub">B.Sc. Atmospheric Science — First Class Degree</div>
+        </li>
+
+        <li>
+            <strong>Nanjing University of Information Science and Technology (NUIST), China</strong>
+            <span class="time">2021–2024</span>
+            <div class="sub">B.Sc. Atmospheric Science — GPA 3.704/5.0 (Average Score: 87%)</div>
+            <div class="sub">Merit Student (3×) • First-class Scholarship (3×) • Outstanding Graduate
+        </li>
+    </ul>
+</div>
+
+<!-- ================= RESEARCH ================= -->
+
+<div class="card">
+    <h2>💼 Research Experience</h2>
+    <ul class="timeline">
+
+        <li>
+            <strong>Hourly Runoff Prediction using Deep Learning</strong>
+            <span class="time">2025–Present</span>
+            <div class="sub">Develop globally generalizable hourly runoff forecasting models</div>
+        </li>
+
+        <li>
+            <strong>Wind Damage Risk Assessment (Europe)</strong>
+            <span class="time">2025</span>
+            <div class="sub">Computed Storm Severity Index (SSI) and insurance risk analysis</div>
+        </li>
+
+        <li>
+            <strong>Simplified UTCI Calculation Using Symbolic Regression</strong>
+            <span class="time">2024–2025</span>
+            <div class="sub">Simplified UTCI computation for heatwave analysis and climate projection in China</div>
+        </li>
+
+        <li>
+            <strong>Machine Learning-Based Weather Modification Assessment</strong>
+            <span class="time">2023–2024</span>
+            <div class="sub">Convlstm for convective cloud prediction using radar & satellite data</div>
+        </li>
+
+        <li>
+            <strong>DECODE Field Experiment</strong>
+            <span class="time">2022</span>
+
+            <div class="sub">
+                     Instrument operation & boundary layer analysis.
+            </div>
+
+            <div class="sub">
+                     Our storm chasing video:
+                     <a href="https://www.bilibili.com/video/BV1iVthekEZv/?                         share_source=copy_web&vd_source=533468b15b1ba17fa64ed493f539a48c"
+                     target="_blank">
+                     Watch here
+                     </a>
+             </div>
+        </li>
+
+    </ul>
+</div>
+
+<!-- ================= INTERNSHIP ================= -->
+
+<div class="card">
+    <h2>🏢 Internship Experience</h2>
+    <ul class="timeline">
+
+        <li>
+            <strong>Saudi Aramco Digital Hackathon</strong>
+            <span class="time">2026</span>
+            <div class="sub">3D Scene Reconstruction</div>
+        </li>
+
+        <li>
+            <strong>Henan Ecological & Environmental Technology Office</strong>
+            <span class="time">2024</span>
+            <div class="sub">WRF/WPS Modeling</div>
+        </li>
+
+        <li>
+            <strong>Henan Meteorological Service</strong>
+            <span class="time">2023</span>
+            <div class="sub">Forecasting & Statistical Rainstorm Analysis</div>
+        </li>
+
+    </ul>
+</div>
+
+<!-- ================= SKILLS ================= -->
+
+<div class="card">
+    <h2>🛠 Technical Skills</h2>
+    <ul class="timeline">
+        <li>Python • Deep Learning • PyTorch</li>
+	<li>MATLAB</li>
+        <li>Data Engineering</li>
+        <li>Statistical Analysis • Kriging • Interpolation</li>
+        <li>WRF/WPS • Linux • HPC</li>
+        <li>Shell Scripting • Scientific Computing</li>
+    </ul>
+</div>
+
+<!-- ================= PUBLICATIONS ================= -->
+
+<div class="card">
+    <h2>📚 Publications</h2>
+    <ul class="timeline">
+
+        <li>
+            <strong>
+                <a href="https://journals.ametsoc.org/view/journals/bams/105/12/BAMS-D-23-0222.1.xml"
+                   target="_blank">
+                    Desert–Oasis Convergence Line and Deep Convection Experiment (DECODE)
+                </a>
+            </strong>
+            <span class="time">2024</span>
+            <div class="sub">
+                Meng, Z., and Coauthors, 2024: 
+                <em>Desert–Oasis Convergence Line and Deep Convection Experiment (DECODE)</em>. 
+                <em>Bull. Amer. Meteor. Soc.</em>, <strong>105</strong>, E2355–E2384, 
+                <a href="https://doi.org/10.1175/BAMS-D-23-0222.1" target="_blank">
+                    https://doi.org/10.1175/BAMS-D-23-0222.1
+                </a>.
+            </div>
+        </li>
+
+    </ul>
+</div>
+<!-- ================= FOOTER ================= -->
+
+<div class="footer">
+    © 2026 Weikang Kong — Academic CV
+</div>
+
+</div>
+
+</body>
+</html>
