@@ -168,6 +168,20 @@ body {
     }
 
 }
+/* ================= PHOTO GRID ================= */
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.photo-grid img {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
 
 </style>
 </head>
@@ -228,7 +242,7 @@ body {
     <ul class="timeline">
 
         <li>
-            <strong>King Abdullah University of Science and Technology (KAUST), Saudi Arabia</strong>
+            <strong>King Abdullah University of Science and Technology (KAUST) (fully funded), Saudi Arabia</strong>
             <span class="time">2025–Present</span>
             <div class="sub">M.Sc. Earth Science and Engineering — GPA 3.44/4.0 (Pending)</div>
         </li>
@@ -255,44 +269,77 @@ body {
     <ul class="timeline">
 
         <li>
-            <strong>Hourly Runoff Prediction using Deep Learning</strong>
+            <strong>Hourly Runoff Prediction Using Deep Learning</strong>
             <span class="time">2025–Present</span>
-            <div class="sub">Develop globally generalizable hourly runoff forecasting models</div>
+            <div class="sub">Develop globally generalizable hourly runoff forecasting models (LSTM-based)</div>
         </li>
 
         <li>
             <strong>Wind Damage Risk Assessment (Europe)</strong>
             <span class="time">2025</span>
-            <div class="sub">Computed Storm Severity Index (SSI) and insurance risk analysis</div>
+            <div class="sub">Computed Storm Severity Index (SSI) and insurance risk analysis based on S2S hindcast data from NECP & ECMWF</div>
         </li>
 
         <li>
             <strong>Simplified UTCI Calculation Using Symbolic Regression</strong>
             <span class="time">2024–2025</span>
-            <div class="sub">Simplified UTCI computation for heatwave analysis and climate projection in China</div>
+            <div class="sub">Simplified UTCI computation for heatwave analysis and climate projection in China using reanalysis and climate model data</div>
         </li>
 
         <li>
             <strong>Machine Learning-Based Weather Modification Assessment</strong>
             <span class="time">2023–2024</span>
-            <div class="sub">Convlstm for convective cloud prediction using radar & satellite data</div>
+            <div class="sub">Convlstm for convective cloud prediction using radar & Fengyun-4A satellite data</div>
         </li>
+    </ul>
+</div>
 
-        <li>
-            <strong>DECODE Field Experiment</strong>
+<!-- ================= FIELD WORK ================= -->
+
+<div class="card">
+    <h2>🌪 Field Work</h2>
+    <ul class="timeline">
+		<li>
+        <strong>Blencathra Field Studies, Keswick, UK</strong>
+        <span class="time">2025</span>
+        <div class="sub">
+            Meteorological profiling over hilly terrain (stability properties; hydrostatic approximation).
+        </div>
+		<div class="sub">
+            Weather forecasting exercise (synoptic situation; orography; in-situ observation; ensemble forecasts).
+        </div>
+		<div class="sub">
+            Valley flow analysis.
+        </div>
+			
+		<h3 style="margin-top:20px;">Field Campaign Photos</h3>
+    	<div class="photo-grid">
+        	<img src="images/photo1.jpg">
+        	<img src="images/photo2.jpg">
+        	<img src="images/photo3.jpg">
+        	<img src="images/photo4.jpg">
+        	<img src="images/photo5.jpg">
+    	</div>
+    </li>
+		
+	<li>
+            <strong>DECODE Field Experiment, Inner Mongolia, China</strong>
             <span class="time">2022</span>
 
             <div class="sub">
-                     Instrument operation & boundary layer analysis.
+                Instrument operation (Doppler LiDARs; microwave radiometer; eddy covariance systems).
+            </div>
+			<div class="sub">
+                Observation and analysis of boundary layer convergence lines.
             </div>
 
             <div class="sub">
-                     Our storm chasing video:
-                     <a href="https://www.bilibili.com/video/BV1iVthekEZv/?                         share_source=copy_web&vd_source=533468b15b1ba17fa64ed493f539a48c"
-                     target="_blank">
-                     Watch here
-                     </a>
-             </div>
+                Our storm chasing video:
+                <a href="https://www.bilibili.com/video/BV1iVthekEZv/?share_source=copy_web&vd_source=533468b15b1ba17fa64ed493f539a48c"
+                   target="_blank">
+                   Watch here
+                </a>
+            </div>
         </li>
 
     </ul>
@@ -307,7 +354,7 @@ body {
         <li>
             <strong>Saudi Aramco Digital Hackathon</strong>
             <span class="time">2026</span>
-            <div class="sub">3D Scene Reconstruction</div>
+            <div class="sub">Lightweight Muti-view 3D Scene Reconstruction</div>
         </li>
 
         <li>
@@ -324,7 +371,23 @@ body {
 
     </ul>
 </div>
+	
+<!-- ================= Summer School ================= -->
+<div class="card">
+    <h2>🎓 Summer Schools </h2>
+    <ul class="timeline">
 
+        <li>
+            <strong>2024 Tsinghua University International Summer School: Earth System Model Development</strong>
+            <span class="time">08/2024</span>
+        </li>
+        <li>
+            <strong>First Summer School on Weather Forecasting Science and Technology, NUIST</strong>
+            <span class="time">06/2024</span>
+        </li>
+    </ul>
+</div>
+	
 <!-- ================= SKILLS ================= -->
 
 <div class="card">
@@ -368,10 +431,11 @@ body {
 <!-- ================= FOOTER ================= -->
 
 <div class="footer">
-    © 2026 Weikang Kong — Academic CV
+    © 2026 Weikang Kong
 </div>
 
 </div>
 
 </body>
+
 </html>
